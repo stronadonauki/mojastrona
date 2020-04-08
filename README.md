@@ -29,25 +29,37 @@
 		a {	color: #68E89F;
 				text-decoration: none;
 				opacity: 0.99}
+		.span {
+			color: #E86897;
+		}
+		#div {
+			background-color: #68E89F;
+		}
+		#tytul {
+			background-color: #68E89F;
+		}
+		#lista {
+			background-color: #E86897;
+		}
 		</style>
 	</head>
 
 	<body>
 		<!-- TYTUŁ -->
-		<h1 id="INFORMATYKA">INFORMATYKA</h1>
-						<p id="biblia"><strong>BIBLIOTEKA JĘZYKÓW</strong></p>
+		<div id="tytul"><h1 id="INFORMATYKA">INFORMATYKA</h1></div>
+						<div id="lista"><p id="biblia"><strong>BIBLIOTEKA JĘZYKÓW</strong></p>
 						<ol>
 							<li id="li1"><a href="#cplusplus">C++</a></li>
 							<li id="li2"><a href="#HTML">HTML</a></li>
 							<li id="li3"><a href="#CSS">CSS</a></li>
-						</ol>
+						</ol></div>
 		<!-- c++ -->
-		<h2 id="cplusplus">1. C++</h2>
-						<p id="jedenc">1. Biblioteka &#60;string&#62;</p>
+		<h2 id="cplusplus">1. C<span class="span">++</span></h2>
+						<div id="div"><p id="jedenc">1. Biblioteka &#60;string&#62;</p>
 						<a target="_blank" href="http://cpp0x.pl/kursy/Kurs-C++/Biblioteka-string/319"> <!-- lub napis zamiast obrazu --> <br>
 							<img src="https://operon.pl/var/operon/storage/images/media/pliki/do_kuriera/operon-programowanie-jezyk-xxi-wieku/212370-1-pol-PL/Operon-Programowanie-jezyk-XXI-wieku.jpg" alt="programowanie" width="200">
 						</a>
-
+					</div>
 
 		<!-- HTML -->
 		<h2 id="htmlll"class="HTML">2. HTML</h2>
